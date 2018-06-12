@@ -2,8 +2,9 @@
 <html  xmlns="http://www.w3.org/1999/xhtml"
       xmlns:fb="http://ogp.me/ns/fb#">
 	<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <script src="js/scripts.js" type="text/javascript">
@@ -11,7 +12,48 @@
 
   </head>
   <body>
-    <div>No</div>
+    <div class="initial">
+      <div class="text">No</div>
+      <a class="unless-link" href="">Unless...</a>
+    </div>
+    <div class="main">
+      <div class="question">
+          Are you facing a 30+ year prison sentence?
+        </div>
+
+      <a id="yes" href="">
+        <div class="left">
+          <div class="choice yes">Yes</div>
+        </div>
+      </a>
+
+      <a id="no" href="">
+        <div class="right">
+          <div class="choice no">No</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="said-yes said-yes-0">
+      <div class="top-text">Yeah thats pretty bad. Definitely don't kill people, or do something else to go to jail for 30 years. Terrible decision making on your part, but okay, I guess you can kill yourself.</div>
+
+      <div class="middle">
+        <div class="question-slider-text">
+          Bonus Question: How many years of a prison sentence would it take for you to consider suicide?
+        </div>
+        <div> 
+          <input class="slider" type="range" min="0" max="40" value="20">
+          <div class="slider-output">20</div>
+        </div>
+      </div>
+      <i class="fas fa-arrow-left back"></i>
+    </div>
+
+    <div class="said-yes-1">
+      <div class="top-text">
+        
+      </div>
+    </div>
   	
   </body>
 

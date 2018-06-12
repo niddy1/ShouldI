@@ -1,0 +1,26 @@
+{
+  "name": "shouldiendmy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path scss scss/main.scss  css/main.css",
+    "scss": "node-sass --watch scss -o css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niddy1/ShouldI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niddy1/ShouldI/issues"
+  },
+  "homepage": "https://github.com/niddy1/ShouldI#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5"
+  }
+}
